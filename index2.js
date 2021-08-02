@@ -8,13 +8,13 @@ const app = express()
 
 app.get('/app3',(req,res)=>
 {
-    res.send("From /app3 path i am "+process.env.hostname)
+    res.send("From /app3 path ")
 })
 
 
 app.get('/app4',(req,res)=>
 {
-    res.send("From /app4 path i am "+process.env.hostname)
+    res.send("From /app4 path  ")
 })
 
 
