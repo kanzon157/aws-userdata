@@ -5,12 +5,13 @@ const app = express()
 
 app.get('/app1',(req,res)=>
 {
-    res.send("From /app1 path i am "+process.env.hostname)
+   // res.send("From /app1 path i am "+process.env.hostname)
+    res.send("From /app1 path ")
 })
 
 app.get('/app2',(req,res)=>
 {
-    res.send("From /app2 path i am "+process.env.hostname)
+    res.send("From /app2 path ")
 })
 
 
